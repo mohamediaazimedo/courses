@@ -1,0 +1,140 @@
+:root{
+  --color-orange:#F46632;
+  --text-color:#8D8D8D;
+  --text-small:16px;
+  --text-mid:20px;
+  --text-large:24px;
+  --border-circle:50%;
+  --border-small:30px;
+  --border-big:4px;
+  --card-back-color:#F8F8F8;
+  --full:100%;
+  --gravity-center:auto;
+  --gravity-center-h:0 auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav .nav-bar{
+  background-color: black;
+  color: white;
+}
+li , a,button{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+font-size: var(--text-small);
+}
+.btn{
+  font-size: var(--text-small);
+  background-color: #ffffff2b;
+  border: none;
+  border-radius: var(--border-small);
+  padding:10px 30px;
+  cursor: pointer;
+}
+
+/* hover */
+.btn:hover{
+  background-color:  #ffffff8a;
+}
+.logo{
+  height: 32px;
+  width: 70px;
+  cursor: pointer;
+}
+.nav-bar{
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+li {
+  text-align: center;
+    margin-left: 30px;
+    margin: 20px;
+      cursor: pointer;
+}
+/* hover menu itemes */
+a:hover{
+  font-weight: bolder;
+  color: #8D8D8D;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 10px 30px;
+}
+.intro{
+ height: 50vh;
+
+  width: var(--full);
+  background-color: black;
+}
+.card{
+  /* height: 400px; */
+  height: fit-content;
+  width: 50%;
+  background-color: white;
+  margin: var(--gravity-center);
+  border: 2px solid #2222220d;
+  outline: 2px solid #2222220d;
+  border-radius: var(--border-small);
+}
+.img {
+  height: 260px;
+  width: 250px;
+
+}
+.card-intro{
+  padding: 30px;
+  height: fit-content;
+
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-intro p,h1 ,.start-btn{
+  margin: 20px 30px;
+
+}
+.card-intro h3{
+  margin:10px  30px;
+}
+
+.card-intro {
+  margin-top: 80px;
+}
+.card h3
+{
+  color: var(--text-color);
+}
+p{
+  line-height: 2;
+}
+.start-btn{
+  background-color: var(--color-orange);
+  padding: 10px 30px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 40px;
+  outline: 5px solid #f4663221;
+  cursor: pointer;
+}
+.start-btn:hover{
+  background-color: #f46632c4;
+}
