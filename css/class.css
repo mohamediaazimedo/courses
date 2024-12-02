@@ -1,0 +1,29 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+background-color: #f1f1f1;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.center {
+width: 60%;
+background-color: white;
+min-height: 100vh;
+}
+
+.right{
+  width: 10%;
+  background-color:  #f1f1f1;
+  min-height: 100vh;
+  border-right: 20px white solid;
+  }
+}
